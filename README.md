@@ -3,16 +3,16 @@ Simple tool used to execute single file C programs using shebang line: `#!/usr/b
 ## Requirements
 * Linux operating system 
 
-...tested on ubuntu 16.04, other linux based operating systems should work fine
+  tested on ubuntu 16.04, other linux based operating systems should work fine
 
 * bash
 
-...The file cscript us a bash shell script.
+  The file cscript us a bash shell script.
 
 * gcc
 
-...Neded to compile the c code
-...To install on ubuntu use:
+  Neded to compile the c code
+  To install on ubuntu use:
 ```bash
 sudo apt install build-essential
 ```
