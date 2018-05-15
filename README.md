@@ -18,8 +18,13 @@ git clone git@github.com:brett932/cscript.git
 cd cscript
 sudo ./install
 ```
-### Note:
-It is never a good idea to blindly trust a script from someone you do not know.
+The cloned cscript repo folder may now be deleted if you wish
+```bash
+cd ..
+rm -rf cscript/
+```
+### Security note:
+Blindly trust a script from someone you do not know is dangerous!.
 ... I recomend inspecting any unknown files before executing them, especialy when executing with root permissions!
 ## Usage
 1. Open a new source file, e.g. 'test.c', with your prefered text editor.
@@ -38,5 +43,19 @@ chmod +x test.c
 ./test.c
 ```
 ## Examples
+change directory to the 'example\_usage' directory
+```shell
+$cd example_usage
+```
+1. run hello.c
+... `./hello.c`
+Output:
+```
+Hello world!
+```
 
 ## Uninstall
+```bash
+cd ~/Documents/cscript
+sudo ./uninstall
+```
