@@ -1,5 +1,5 @@
 # cscript
-Simple tool to to execute single file 'c' program using a shebang line: `#!/usr/bin/cscript`
+Simple tool to to execute single file 'c' program using shebang line: `#!/usr/bin/cscript`
 ## Requirements
 * Linux operating system 
 ... tested on ubuntu 16.04, other linux based operating systems should work fine
@@ -18,8 +18,8 @@ git clone git@github.com:brett932/cscript.git
 cd cscript
 sudo ./install
 ```
-###Note:
-... It is never a good idea to blindly trust a script from someone you do not know.
+### Note:
+It is never a good idea to blindly trust a script from someone you do not know.
 ... I recomend inspecting any unknown files before executing them, especialy when executing with root permissions!
 ## Usage
 1. Open a new source file, e.g. 'test.c', with your prefered text editor.
