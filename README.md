@@ -59,7 +59,7 @@ ls.c
 pwd.c
 hello.c
 ```
-3. Execute pwd.c `./pwd.c`
+3. Execute pwd.c: `./pwd.c`
 ```
 /home/brett/Documents/cscript/example_usage
 ```
