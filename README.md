@@ -9,18 +9,18 @@ cd cscript
 sudo ./install
 ```
 # Usage
-Create a new source file, e.g. 'test.c'
-Open in your favoirite editor
-Add shebang line '#!\usr\bin\cscript'
+1. Open a new source file, e.g. 'test.c', with your prefered text editor.
+2. Set first line of your file to thei shebang line '#!\usr\bin\cscript'.
+3. Write a valid c program (see examples).
 ```c
 #!\usr\bin\cscript
 ... c program ...
 ```
-Set executable flag for file
+4. Set executable flag for file
 ```bash
 chmod +x test.c
 ```
-Execute file
+5. Execute file
 ```c
 ./test.c
 ```
