@@ -1,4 +1,4 @@
-# cscript
+# CScript
 Simple tool to to execute single file 'c' program using shebang line: `#!/usr/bin/cscript`
 ## Requirements
 * Linux operating system 
