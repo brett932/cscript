@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cp ./cscript /usr/bin/cscript
+chmod 755 /usr/bin/cscript

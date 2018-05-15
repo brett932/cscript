@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+tmp_src=$(mktemp /tmp/cscript.XXXXXX)
+tmp_exe=$(mktemp /tmp/cscript.XXXXXX)
+tail -n +2 "$1" > $tmp_src
+gcc -Wall -o $tmp_exe -x c $tmp_src
+$tmp_exe ${@:2}
+rm "$tmp_src"
+rm "$tmp_exe"
