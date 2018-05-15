@@ -1,11 +1,16 @@
-# CScript
+#CScript
 Simple tool used to execute single file C programs using shebang line: `#!/usr/bin/cscript`
 ## Requirements
 * Linux operating system 
+
 ...tested on ubuntu 16.04, other linux based operating systems should work fine
+
 * bash
+
 ...The file cscript us a bash shell script.
+
 * gcc
+
 ...Neded to compile the c code
 ...To install on ubuntu use:
 ```bash
