@@ -18,6 +18,9 @@ git clone git@github.com:brett932/cscript.git
 cd cscript
 sudo ./install
 ```
+###Note:
+... It is never a good idea to blindly trust a script from someone you do not know.
+... I recomend inspecting any unknown files before executing them, especialy when executing with root permissions!
 ## Usage
 1. Open a new source file, e.g. 'test.c', with your prefered text editor.
 2. Set first line of your file to thei shebang line '#!\usr\bin\cscript'.
