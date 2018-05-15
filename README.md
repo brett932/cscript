@@ -45,15 +45,24 @@ chmod +x test.c
 ## Examples
 change directory to the 'example\_usage' directory
 ```shell
-$cd example_usage
+$cd ~/Documents/cscript/example_usage
 ```
-1. run hello.c
-... `./hello.c`
-Output:
+1. Execute hello.c: `./hello.c`
 ```
 Hello world!
 ```
-
+2. Execute ls.c: `./ls.c`
+```
+.
+..
+ls.c
+pwd.c
+hello.c
+```
+3. Execute pwd.c `./pwd.c`
+```
+/home/brett/Documents/cscript/example_usage
+```
 ## Uninstall
 ```bash
 cd ~/Documents/cscript
