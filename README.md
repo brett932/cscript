@@ -1,5 +1,5 @@
 # cscript
-Simple tool to to execute single file 'c' programs usign the shebang line: '#!/usr/bin/cscript'
+Simple tool to to execute single file 'c' program using a shebang line: `#!/usr/bin/cscript`
 ## Requirements
 * Linux operating system 
 ... tested on ubuntu 16.04, other linux based operating systems should work fine
